@@ -33,5 +33,3 @@ Ideal para praticar conceitos de layout responsivo, estilização com Flexbox e 
 
 
 
-
-.
