@@ -8,6 +8,9 @@ Ideal para praticar conceitos de layout responsivo, estilização com Flexbox e 
 ## 📸 Preview
 
 
+![image](https://github.com/user-attachments/assets/e86a9997-6947-4583-8cf3-dedfb34e9df9)
+
+
 
 ---
 
