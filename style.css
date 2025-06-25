@@ -1,0 +1,67 @@
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #1F2631;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #313A49;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 40px 30px;
+    position: relative;
+}
+
+.titulo {
+    color: #53ffaa;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 24px;
+}
+
+.frase {
+    font-size: 22px;
+    font-weight: 800;
+    color: #CEE3E9;
+    margin-bottom: 24px;
+}
+
+.divisao {
+    background-position: center;
+    height: 16px;
+    margin: 20px 0;
+    border-bottom: 2px solid #FFFFFF
+}
+
+.botao {
+    background-color: #53ffaa;
+    border: none;
+    border-radius: 50%;
+    padding: 16px;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.botao img {
+    width: 24px;
+    height: 24px;
+}
+
+.botao:hover {
+    box-shadow: 0 0 20px #53ffaa;
+}
+
