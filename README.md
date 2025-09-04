@@ -1,35 +1,34 @@
-🎵 Gerador de Trechos de Músicas
-
-Um projeto simples e estilizado com HTML e CSS que simula um gerador de trechos musicais. 
-Ideal para praticar conceitos de layout responsivo, estilização com Flexbox e uso de fontes externas do Google Fonts.
-
----
-
-## 📸 Preview
+# 🎸 Minhas Músicas Favoritas
 
 
-![image](https://github.com/user-attachments/assets/e86a9997-6947-4583-8cf3-dedfb34e9df9)
-
-
+Este é um projeto em HTML e CSS feito como estudo, onde apresento algumas das minhas músicas favoritas.
+Cada card representa uma música, com nome da banda, título da faixa e um botão que leva diretamente para o clipe no YouTube.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+🚀 Tecnologias utilizadas
 
-- HTML
-- CSS
-- Flexbox
-- Google Fonts (Manrope)
+- HTML – Estrutura da página.
+- CSS – Estilização e responsividade
+- Google Fonts – Fonte utilizada: Manrope.
 
 ---
 
-## 💡 Funcionalidades
+🎨 Layout
 
-- Layout centralizado com cartão estilizado
-- Título com destaque colorido
-- Trecho musical com quebras de linha
-- Divisor decorativo
-- Botão circular com ícone e efeito hover
+O site possui um visual inspirado no estilo Rock, com:
+
+- 🎸 Background em tons escuros e vermelho sangue.
+- 🎵 Cards destacados com bordas vermelhas e sombras.
+- ⚡ Botões interativos que brilham ao passar o mouse.
+- 📱 Responsividade: funciona bem em telas grandes e pequenas.
+
+
+---
+
+🖼️ Preview
+
+!![Animação Musicas Favoritas](https://github.com/user-attachments/assets/9a65c157-3e9a-41b7-a2a8-209a29692cc7)
 
 
 
