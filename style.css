@@ -1,7 +1,7 @@
 body {
     font-family: "Manrope", sans-serif;
-    background-color: #1F2631;
-    color: white;
+    background: linear-gradient(135deg, #0D0D0D, #1F1F1F, #3B0000);
+    color: #EAEAEA;
 }
 
 .cabecalho {
@@ -13,13 +13,11 @@ body {
 
 .titulo-principal {
     display: flex;
-    align-items: center;
-    /* centraliza verticalmente */
-    justify-content: center;
-    /* centraliza horizontalmente */
+    align-items: center;  /* centraliza verticalmente */
+    justify-content: center;  /* centraliza horizontalmente */
     gap: 12px;
-    flex-wrap: nowrap;
-    /* mantém tudo na mesma linha */
+    flex-wrap: nowrap; /* mantém tudo na mesma linha */
+    letter-spacing: 1px;   /* dá um respiro entre as letras */
 }
 
 .titulo {
@@ -38,7 +36,8 @@ body {
 
 .descricao {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    letter-spacing: 1px;   /* dá um respiro entre as letras */
 }
 
 .container {
@@ -48,17 +47,19 @@ body {
     max-width: 900px;
     margin: 0 auto;  /* centraliza a grade na página */
     padding: 40px 16px;   /* respiro nas laterais */
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .card {
-    background-color: #313A49;
+    background-color: #1A1A1A; /* bem escuro, mas diferente do fundo */
     width: 400px;
+    border: 1px solid #B22222; /* vermelho sangue */
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
     padding: 40px 30px;
     position: relative;
+    letter-spacing: 1px;   /* dá um respiro entre as letras */
 }
 
 .musica {
@@ -114,7 +115,22 @@ body {
   align-items: center;  /* alinha verticalmente no centro */
   gap: 16px;     /* espaço entre o texto e os ícones */
   padding: 20px;
-  background-color: #313A49; /* só pra dar destaque */
+  background-color: #111111; /* quase preto */
+  color: #EAEAEA;
+}
+
+.creditos {
+  font-size: 14px;  /* tamanho da fonte */
+  color: #FFFFFF;   /* cor do texto */
+  font-weight: 600; /* peso da fonte */
+  letter-spacing: 1px;   /* dá um respiro entre as letras */
+}
+
+.name {
+  color: #53ffaa; /* vermelho sangue */        /* muda a cor (neon, por exemplo) */
+  font-weight: 800;      /* deixa o peso da fonte mais forte */
+  font-size: 18px;       /* aumenta um pouco o tamanho */
+  letter-spacing: 1px;   /* dá um respiro entre as letras */
 }
 
 .icones {
@@ -131,4 +147,23 @@ body {
 
 .icones img:hover {
   transform: scale(1.1); /* dá um leve zoom no hover */
+}
+
+@media (max-width: 900px) {
+
+    .descricao{
+        max-width: 600px;
+        margin: 50px auto 80px;  /* centraliza e dá margem em cima e embaixo */ 
+    }
+
+    .container {
+        grid-template-columns: 1fr;  /* muda para 1 coluna */
+        padding: 20px 16px;   /* respiro nas laterais */
+    }
+
+    .card {
+        width: 100%;  /* faz o card ocupar toda a largura disponível */
+        max-width: 400px; /* mas não maior que 400px */
+        margin: 0 auto; /* centraliza o card */
+    }
 }
