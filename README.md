@@ -28,7 +28,7 @@ O site possui um visual inspirado no estilo Rock, com:
 
 🖼️ Preview
 
-!![Animação Musicas Favoritas](https://github.com/user-attachments/assets/9a65c157-3e9a-41b7-a2a8-209a29692cc7)
+![Animação Musicas Favoritas](https://github.com/user-attachments/assets/9a65c157-3e9a-41b7-a2a8-209a29692cc7)
 
 
 
